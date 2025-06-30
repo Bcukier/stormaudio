@@ -1,0 +1,8 @@
+{
+  "domain": "stormaudio",
+  "name": "StormAudio Amplifier",
+  "version": "1.0",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@bcukier"]
+}
