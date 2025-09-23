@@ -1,0 +1,32 @@
+send_command:
+  name: Send Command
+  description: Send a raw command to the StormAudio processor
+  target:
+    entity:
+      integration: stormaudio
+  fields:
+    command:
+      name: Command
+      description: Raw command to send to the processor
+      required: true
+      example: "POWER ON"
+      selector:
+        text:
+
+set_preset:
+  name: Set Preset
+  description: Load a preset configuration
+  target:
+    entity:
+      integration: stormaudio
+  fields:
+    preset:
+      name: Preset
+      description: Preset number to load (1-8)
+      required: true
+      example: 1
+      selector:
+        number:
+          min: 1
+          max: 8
+          mode: box

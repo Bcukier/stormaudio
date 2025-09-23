@@ -1,0 +1,41 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "StormAudio Setup", 
+        "description": "Configure your StormAudio device"
+      },
+      "discovery": {
+        "title": "StormAudio Device Discovery",
+        "description": "Found {count} StormAudio device(s) on your network. Select a device to configure:",
+        "data": {
+          "device": "Device"
+        }
+      },
+      "manual": {
+        "title": "Manual Configuration",
+        "description": "Enter your StormAudio device details:",
+        "data": {
+          "host": "Host/IP Address",
+          "port": "Port",
+          "name": "Device Name"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the StormAudio device. Please check the host/IP address and port."
+    },
+    "abort": {
+      "already_configured": "This StormAudio device is already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "name": "Device Name"
+        }
+      }
+    }
+  }
+}
