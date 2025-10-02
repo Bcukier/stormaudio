@@ -4,7 +4,7 @@
   "codeowners": [],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/custom-components/stormaudio",
+  "documentation": "https://github.com/Bcukier/stormaudio",
   "integration_type": "hub",
   "iot_class": "local_polling",
   "requirements": [],
