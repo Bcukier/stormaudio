@@ -1,0 +1,9 @@
+{
+  "name": "StormAudio",
+  "content_in_root": false,
+  "filename": "stormaudio",
+  "render_readme": true,
+  "domains": ["media_player"],
+  "iot_class": "Local Polling",
+  "homeassistant": "2023.1.0"
+}
